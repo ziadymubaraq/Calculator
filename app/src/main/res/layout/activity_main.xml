@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
+        android:text="0"
         android:layout_marginBottom="5dp"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -175,6 +176,14 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <Button
+            style="?attr/buttonStyle"
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/delete"
+            android:layout_toLeftOf="@+id/buttonClear"/>
         <Button
             style="?attr/buttonStyle"
             android:id="@+id/buttonClear"
